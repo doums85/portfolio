@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+    <title>Seck Mamadou</title>
+
+    <!--Template based on URL below-->
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--    ekko-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
+    <!--awesome-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Place your stylesheet here-->
+    <link href="main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark  bg-dark ">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample01 ">
+
+                <ul class="navbar-nav ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Compétences</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">À ma découverte</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="#">Diplômes</a>
+                            <a class="dropdown-item" href="#">Expériences</a>
+                            <a class="dropdown-item" href="#">Loisirs</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <!--banniere-->
+        <div class="jumbotron jumbotron-fluid text-left" style="background-image: url(Images/banniere.svg);">
+            <div class="container text-white" style="height: 500px;">
+                <h1 class="display-1">Bonjour !</h1>
+                <p class="lead font-weight-bolder mb-5" style="font-size: 2rem;">Je suis Seck Mamadou</p>
+                <p class="display-4">Developpeur Front-end</p>
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg shadow-lg" href="#" role="button">Télécharger mon CV</a>
+                </p>
+            </div>
+        </div>
+    </header>
+
+    <section class="container">
+        <!--bienvenu-->
+        <div class="text-center">
+            <h1 class="title">Bienvenue</h1>
+            <p>Je suis un développer web spécialisé en Front-end. Un amour de la tech et du codage.Coder,programmer un site ou une application est vraiment incroyable, travaillant sur le Front-end rendre un site attractif et fonctionne est ma mission. Youtuber à mon temps libre, j'ai une chaine dans le domaine du manga, je crée des vidéos AMV (Anime Music Video).</p>
+        </div>
+
+
+
+        <!--skills -->
+        <div>
+            <h1 class="text-center mt-5">Compétences</h1>
+
+            <div class="wrapper mx-auto mt-5">
+                <div class="card rounded-lg">
+                    <div class="circle">
+                        <div class="bar"></div>
+                        <div class="box"><span></span></div>
+                    </div>
+                    <div class="text">HTML & CSS</div>
+                </div>
+                <div class="card js rounded-lg">
+                    <div class="circle">
+                        <div class="bar"></div>
+                        <div class="box"><span></span></div>
+                    </div>
+                    <div class="text">Bootstrap</div>
+                </div>
+                <div class="card react rounded-lg">
+                    <div class="circle">
+                        <div class="bar"></div>
+                        <div class="box"><span></span></div>
+                    </div>
+                    <div class="text">Javascript</div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <!--projets-->
+        <div class="mt-5 d-block mx-auto">
+            <h1 class="title text-center">Projets</h1>
+            <!--row #1-->
+
+            <div class="row mt-5">
+
+                <div class="col- mr-5">
+                    <div>
+                        <img class="shadow-lg" src="Images/Fylo%20landing%20page.png" alt="image projet" style="width: 25vw;">
+                    </div>
+                    <button type="button" class="btn btn-primary d-block mx-auto mt-3" data-toggle="modal" data-target="#modal">Voir le projet</button>
+                    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Fylo landing page</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Insert content here -->
+                                    <p class="card-text">Un challenge du site Frontend mentor réalisé entiérement avec Grid CSS</p>
+                                    <div class="d-flex justify-content-between ">
+                                        <a class="btn btn-primary" href="https://fylo-landing-page-with-two-column-layout-master-gold.vercel.app/" target="_blank" role="button">Voir le projet</a>
+                                        <a class="btn btn-primary" href="https://github.com/doums85/fylo-landing-page-with-two-column-layout-master" target="_blank" role="button">Voir le code</a>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary d-block mx-auto" data-dismiss="modal">Fermer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col- mr-5">
+                    <div>
+                        <img class="shadow-lg" src="Images/Huddle%20langing%20.png" alt="image projet" style="width: 25vw;">
+                    </div>
+                    <button type="button" class="btn btn-primary d-block mx-auto mt-3" data-toggle="modal" data-target="#modal">Voir le projet</button>
+                    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Huddle landing page</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Insert content here -->
+                                    <p class="card-text">Un challenge du site Frontend mentor réalisé entiérement avec Grid CSS</p>
+                                    <div class="d-flex justify-content-between ">
+                                        <a class="btn btn-primary" href="https://huddle-landing-page-with-curved-sections-master-topaz.vercel.app/" target="_blank" role="button">Voir le site</a>
+                                        <a class="btn btn-primary" href="https://github.com/doums85/huddle-landing-page-with-curved-sections-master" target="_blank" role="button">Voir le code</a>
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary d-block mx-auto" data-dismiss="modal">Fermer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row mt-5">
+                <div class="col- mr-5">
+                    <div>
+                        <img class="shadow-lg" src="Images/Clipboard%20landing%20page.png" alt="image projet" style="width: 25vw;">
+                    </div>
+                    <button type="button" class="btn btn-primary d-block mx-auto mt-3" data-toggle="modal" data-target="#modal">Voir le projet</button>
+                    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Clipboard landing page</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Insert content here -->
+                                    <div class="modal-body">
+                                        <!-- Insert content here -->
+                                        <p class="card-text">Un challenge du site Frontend mentor réalisé entiérement avec Flexbox et Grid CSS</p>
+                                        <div class="d-flex justify-content-between ">
+                                            <a class="btn btn-primary" href="https://fylo-dark-theme-mauve.vercel.app/" target="_blank" role="button">Voir le site</a>
+                                            <a class="btn btn-primary" href="https://github.com/doums85/Fylo-dark-theme" target="_blank" role="button">Voir le code</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary d-block mx-auto" data-dismiss="modal">Fermer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col- mr-5">
+                    <div>
+                        <img class="shadow-lg" src="Images/Huddle%20langing%20.png" alt="image projet" style="width: 25vw;">
+                    </div>
+                    <button type="button" class="btn btn-primary d-block mx-auto mt-3" data-toggle="modal" data-target="#modal">Voir le projet</button>
+                    <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Huddle landing page</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Insert content here -->
+                                    <p class="card-text">Un challenge du site Frontend mentor réalisé entiérement avec Grid CSS</p>
+                                    <div class="d-flex justify-content-between ">
+                                        <a class="btn btn-primary" href="https://huddle-landing-page-with-curved-sections-master-topaz.vercel.app/" target="_blank" role="button">Voir le site</a>
+                                        <a class="btn btn-primary" href="https://github.com/doums85/huddle-landing-page-with-curved-sections-master" target="_blank" role="button">Voir le code</a>
+
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary d-block mx-auto" data-dismiss="modal">Fermer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class=" mt-5">
+                <div>
+                    <img class="shadow-lg d-block mx-auto" src="Images/Fylo-dark-theme.png" alt="image projet" style="width: 25vw;">
+                </div>
+                <button type="button" class="btn btn-primary d-block mx-auto mt-3" data-toggle="modal" data-target="#modal">Voir le projet</button>
+                <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Fylo dark theme</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            </div>
+                            <div class="modal-body">
+                                <!-- Insert content here -->
+                                <div class="modal-body">
+                                    <!-- Insert content here -->
+                                    <p class="card-text">Réalisé entiérement avec Flexbox et Grid CSS. J'ai utilisé des animations pour rendre le site plus attractif</p>
+                                    <div class="d-flex justify-content-between ">
+                                        <a class="btn btn-primary" href="https://fylo-dark-theme-mauve.vercel.app/" target="_blank" role="button">Voir le site</a>
+                                        <a class="btn btn-primary" href="https://github.com/doums85/Fylo-dark-theme" target="_blank" role="button">Voir le code</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary d-block mx-auto" data-dismiss="modal">Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="mt-5">
+                <div class="text-center">
+                    <h1>À ma découverte</h1>
+                    <p>Bienvenue dans mon monde, dans l'optique de vous mettre de mieux me connaître cette partie résume mes diplômes, mon expérience, parcours et loisirs.</p>
+                </div>
+                <div class="row mt-5 ">
+                    <ul class="nav text-center pt-4 flex-column bg-secondary w-25 col- nav-fixe">
+                        <img src="Images/profil.png" alt="" class="rounded-circle d-block mx-auto mb-3" style="width: 8vw; height: ">
+                        <a class="nav-link active text-white" href="#">Mes formations</a>
+                        <a class="nav-link text-white" href="#">Mes expériences</a>
+                        <a class="nav-link text-white" href="#">Mes loisirs</a>
+                    </ul>
+
+                    <div class="col formation">
+                        <div>
+                            <h3>Mes formations</h3>
+                            <div id="accordion" role="tablist">
+                                <div class="card">
+                                    <div class="card-header" role="tab" id="headingOne">
+                                        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Formation Taxi</a>
+                                    </div>
+                                    <!-- Add .show class to this item to make it visible on page load -->
+                                    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                                        <div class="card-body"><b>Obtenu en 2020</b> ! Cette formation a pour but de former les candidats au métier de taxi. À l'école <b>G7 Academy</b> à Paris, nous avons ainsi appris la réglementation taxi, les obligations, la sécurité routière et la gestion d'une société taxi. </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" role="tab" id="headingTwo">
+                                        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Capacité de Transport Léger de Marchandises ( inférieur à 3.5T ) </a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                                        <div class="card-body"> <b>Obtenu en 2020</b> La formation de capacité de transport léger de marchandises est une formation qui permet d'ouvrir une sociéte de transport léger de marchandises sans ce dernier nul ne peut être gérant d'une société de transport en France. Au centre de formation <b>CFTL Paris</b> , le formateur nous a appris la gestion (comptablité,compte resultat,bilan etc), la réglelentation du métier, nos devoirs et droits et comment bien débuter dans ce milieu. </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" role="tab" id="headingThree">
+                                        <a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">HTML5/CSS3</a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                                        <div class="card-body">cette formation n'est pas reconnu par l'État, toutesfois elle qualitative, créer par un developpeur sénior nommé <b><a href="https://fr.linkedin.com/in/louisnicolasleuillet" class="text-info">Nicolas Leuillet</a></b> . Dans cette formation, il m'a apprend html/css avec des explications très claires et de la pratique.</div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header" role="tab" id="headingThree">
+                                        <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">Sass</a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                                        <div class="card-body">cette formation n'est pas reconnu par l'État, toutesfois elle qualitative, créer par un developpeur sénior nommé <b><a href="https://fr.linkedin.com/in/louisnicolasleuillet" class="text-info">Nicolas Leuillet</a></b> . Dans cette formation, il m'a apprend sass avec des explications très claires et de la pratique. Cette formation m'a permis d'apprendre un préprocesseur incroyable, très utile pour les gros sites. <br> <b>Certificat obtenu en 2020</b>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header" role="tab" id="headingThree">
+                                        <a class="collapsed" data-toggle="collapse" href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">Bootstrap</a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                                        <div class="card-body">cette formation n'est pas reconnu par l'État, toutesfois elle qualitative, créer par un developpeur sénior nommé <b><a href="https://fr.linkedin.com/in/louisnicolasleuillet" class="text-info">Nicolas Leuillet</a></b> . Dans cette formation, il m'a apprend sass avec des explications très claires et de la pratique. Cette formation m'a permis d'apprendre bootstrap qui est incroyable, son utilisation est simple et on gagne en ligne de code ce qui a pour cause un site plus fluide.D'ailleur ce portfolio est code avec Bootstrap 4.5 . <br> <b>Certificat obtenu en 2020</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" role="tab" id="headingThree">
+                                        <a class="collapsed" data-toggle="collapse" href="#collapseSix" aria-expanded="false" aria-controls="collapseThree">Javascript</a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                                        <div class="card-body">cette formation n'est pas reconnu par l'État, toutesfois elle qualitative, créer par un developpeur sénior nommé <b><a href="https://fr.linkedin.com/in/louisnicolasleuillet" class="text-info">Nicolas Leuillet</a></b> . Dans cette formation, il m'a apprend sass avec des explications très claires et de la pratique. Cette formation m'a permis d'apprendre Javasript un firmware incroyable qui permet autanment de faire des animations, des jeux , des effets etc. <br> <b>Certificat obtenu en 2020</b>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" role="tab" id="headingThree">
+                                        <a class="collapsed" data-toggle="collapse" href="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">APS ( Agent de prévention et sécurité)</a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                                        <div class="card-body"><b>Obtenu en 2014</b>, cette formation donne accés au métier de la sécurité. À <b>AB Sud</b> de Marseille. On nous a appris la réglementation, la déontologie du métier et comment éffectuer son travail. Nous avons pu également pu apprendre les premiers geste de secours.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" role="tab" id="headingThree">
+                                        <a class="collapsed" data-toggle="collapse" href="#collapseEight" aria-expanded="false" aria-controls="collapseThree">BAC S </a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                                        <div class="card-body"><b>Obtenu en 2013</b>, au lycée Victor Hugo à Marseille. En 1ere S j'ai eu l'opportunité de choisir une matiére en option, mon choix fût les sciences de l'ingerieur.
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <div class="mt-5 experiences">
+                            <h3>Mes expérience</h3>
+                            <ul class="timeline">
+                                <li>
+                                    <a target="_blank" href="https://www.totoprayogo.com/#">Agent de sécurité</a>
+                                    <p href="#" class="float-right">Mars 2019 - Mai 2020 à <b>Paris</b></p>
+                                    <p> <b>DistriSécurité</b>
+                                        <br>Dans le secteur de la sécurité, mes missions etaient les suivantes: Filtrage des entrées et sorties, Plombage des camions, Vérification de la marchandise.
+                                    </p>
+                                </li>
+                                <li>
+                                    <a href="#">Livreur de repas à domicile</a>
+                                    <p href="#" class="float-right">Sept 2018 - Mars 2019 à <b>Paris</b></p>
+                                    <p> <b>Uber/Deliveroo</b>
+                                        <br>J'étais en micro entreprise, mon travaille était la livraison de repas à domicile en partenariat avec Uber et Deliveroo.
+                                    </p>
+                                </li>
+                                <li>
+                                    <a href="#">Ouvrier Agroalimentaire</a>
+                                    <p href="#" class="float-right">Juin 2017 - Juin 2018 <b>Sainte-Hermine</b></p>
+                                    <p><b>Maitre Coq</b>
+                                        <br>Dans le secteur de l'agraalimentaire, j'étais chef de poste mes missions étaient les suivantes: gestion d'équipe , transformation de la matière première, nettoyage du poste de travail et contrôle du matériel.
+                                    </p>
+                                </li>
+                                <li>
+                                    <a href="#">Agent de Sécurité</a>
+                                    <p href="#" class="float-right">Dec 2015 - Nov 2018 <b>Sainte-Hermine</b></p>
+                                    <p><b>Discothéque Le Manoir</b>
+                                        <br>Travail de nuit en tant qu'agent de sécurité, mes missions principales étaient:la gestion d'équipe, la protection des biens et personnes, filtrage des entrées et sorties, éviter et arreter les litiges entre clients.
+                                    </p>
+                                </li>
+                                <li>
+                                    <a href="#">Agent de Sécurité</a>
+                                    <p href="#" class="float-right">Avr 2015 - Avr 2015 <b>La Roche-sur-Yon</b></p>
+                                    <p><b>A.C.S</b>
+                                        <br>En tant qu'agent de sécurité mes missions étaient: filtrage des entrés et sorties, surveillance du site par télévionnage, protection des biens et personnes
+                                    </p>
+                                </li>
+                                <li>
+                                    <a href="#">Agent de Sécurité</a>
+                                    <p href="#" class="float-right">Août 2014 - Mars 2016 <b>La Roche-sur-Yon</b></p>
+                                    <p><b>Privilége Sécurité</b>
+                                        <br>En tant qu'agent de sécurité mes missions étaient: filtrage des entrés et sorties et protection des biens et personnes
+                                    </p>
+                                </li>
+                            </ul>
+                            <a class="btn btn-info mt-3" href="#" role="button">Télécharger le CV </a>
+                        </div>
+
+                        <div class="loisir mt-5">
+                            <h3>Mes loisirs</h3>
+                            <p class="text-center border shadow p-3 mb-5 bg-white rounded p-3">J'ai un vrai fan de manga et de jeu vidéo, en 2017 j'étais un <b>Gamer pro</b> classer 5éme mondial sur UFC 2. Ma passion pour le dessin, m'a encourangé à devenir un Youtuber et dessinateur à mes temps libres.</p>
+
+                            <div>
+                                <h4 class="mt-5">Ma chaine Youtube</h4>
+                                <a href="https://www.youtube.com/channel/UCYHLEi4wKTmwqpUpoBZyM6g?view_as=subscriber"><img class="w-25 border shadow rounded-circle d-block mx-auto" src="Images/Lively(1).png" alt="logo lively amv"></a>
+                                <div class=" row mt-5 d-block mx-auto">
+                                    <iframe height="315" class="col- mr-3 border shadow-lg" style="width:20vw;" src="https://www.youtube.com/embed/XK1pfWm5Cng" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                                    <iframe height="315" class="col- border shadow-lg" style="width:20vw;" src="https://www.youtube.com/embed/c2vH_-mPL2w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <button type="button" class="btn btn-info d-block mx-auto mt-3">Visiter la chaine </button>
+                                </div>
+
+                                <div class="mt-5 dessins">
+                                    <h4>Mes dessins</h4>
+
+                                    <div class="container mt-5">
+                                        <div class="row justify-content-center">
+                                            <div class="col md-10">
+                                                <div class="row mb-5">
+                                                    <a href="Images/Ban.jpg" data-toogle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                                                        <img class=" img-fluid border shadow" src="Images/Ban.jpg" alt="Ban" style="height: 38vh;">
+                                                    </a>
+                                                    <a href="Images/Boruto_.png" data-toogle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                                                        <img class="img-fluid border shadow" src="Images/Boruto_.png" alt="boruto" style="height: 38vh;">
+                                                    </a>
+                                                    <a href="Images/Naruto_.png" data-toogle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                                                        <img class=" img-fluid border shadow" src="Images/Naruto_.png" alt="naruto" style="height: 38vh;">
+                                                    </a>
+
+                                                </div>
+                                                <div class="row">
+                                                    <a href="Images/Deadpool_.png" data-toogle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                                                        <img class=" img-fluid border shadow" src="Images/Deadpool_.png" alt="deadpool" style="height: 38vh;">
+                                                    </a>
+                                                    <a href="Images/Zombie.png" data-toogle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                                                        <img class=" img-fluid border shadow" src="Images/Zombie.png" alt="zombie" style="height: 38vh;">
+                                                    </a>
+                                                    <a href="Images/Ash.jpg" data-toogle="lightbox" data-gallery="example-gallery" class="col-sm-4">
+                                                        <img class=" img-fluid border shadow" src="Images/Ash.jpg" alt="Ash" style="height: 38vh; width: 30vw;">
+                                                    </a>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h1 class="text-center mt-5">Contactez-moi</h1>
+                <form action="" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Votre nom</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Votre message</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+    </section>
+
+    <footer class="text-center text-white p-2 bg-dark">
+        <p>copyright &copy; Tous droits réversés Seck Mamadou</p>
+    </footer>
+
+
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--ekko-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
+    <!--progress bar -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+
+
+
+    <script>
+        $(document).on('click', '[data-toogle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+
+    </script>
+
+    <script>
+        let options = {
+            startAngle: -1.55,
+            size: 150,
+            value: 0.85,
+            fill: {
+                gradient: ['#f5c836', '#f07e16']
+            }
+        }
+        $(".circle .bar").circleProgress(options).on('circle-animation-progress',
+            function(event, progress, stepValue) {
+                $(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%");
+            });
+        $(".js .bar").circleProgress({
+            value: 0.70
+        });
+        $(".react .bar").circleProgress({
+            value: 0.60
+        });
+
+    </script>
+
+</body>
+
+</html>
