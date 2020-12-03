@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
     <!--awesome-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <!-- Place your stylesheet here-->
     <link href="main.css" rel="stylesheet" type="text/css">
 </head>
@@ -35,22 +36,22 @@
                         <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projets</a>
+                        <a class="nav-link" href="#projets">Projets</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Compétences</a>
+                        <a class="nav-link" href="#competences">Compétences</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">À ma découverte</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item" href="#">Diplômes</a>
-                            <a class="dropdown-item" href="#">Expériences</a>
-                            <a class="dropdown-item" href="#">Loisirs</a>
+                            <a class="dropdown-item" href="#diplomes">Diplômes</a>
+                            <a class="dropdown-item" href="#experiences">Expériences</a>
+                            <a class="dropdown-item" href="#loisirs">Loisirs</a>
                         </div>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Contact</a>
+                        <a class="nav-link disabled" href="#contact">Contact</a>
                     </li>
 
                 </ul>
@@ -63,7 +64,7 @@
                 <p class="lead font-weight-bolder mb-5" style="font-size: 2rem;">Je suis Seck Mamadou</p>
                 <p class="display-4">Developpeur Front-end</p>
                 <p class="lead">
-                    <a class="btn btn-primary btn-lg shadow-lg" href="#" role="button">Télécharger mon CV</a>
+                    <a class="btn btn-primary btn-lg shadow-lg" href="Images/index.pdf" download="index.pdf" role="button">Télécharger mon CV</a>
                 </p>
             </div>
         </div>
@@ -80,7 +81,7 @@
 
         <!--skills -->
         <div>
-            <h1 class="text-center mt-5">Compétences</h1>
+            <h1 id="competences" class="text-center mt-5 competences">Compétences</h1>
 
             <div class="wrapper mx-auto mt-5">
                 <div class="card rounded-lg">
@@ -113,7 +114,7 @@
 
 
         <!--projets-->
-        <div class="mt-5 d-block mx-auto">
+        <div id="projets" class="mt-5 d-block mx-auto">
             <h1 class="title text-center">Projets</h1>
             <!--row #1-->
 
@@ -179,6 +180,7 @@
                     </div>
                 </div>
             </div>
+            
 
 
 
@@ -277,7 +279,7 @@
                     </div>
                 </div>
             </div>
-
+        </div>
 
 
 
@@ -290,13 +292,13 @@
                 <div class="row mt-5 ">
                     <ul class="nav text-center pt-4 flex-column bg-secondary w-25 col- nav-fixe">
                         <img src="Images/profil.png" alt="" class="rounded-circle d-block mx-auto mb-3" style="width: 8vw; height: ">
-                        <a class="nav-link active text-white" href="#">Mes formations</a>
-                        <a class="nav-link text-white" href="#">Mes expériences</a>
-                        <a class="nav-link text-white" href="#">Mes loisirs</a>
+                        <a class="nav-link active text-white" href="#formations">Mes formations</a>
+                        <a class="nav-link text-white" href="#formation">Mes expériences</a>
+                        <a class="nav-link text-white" href="#loisirs">Mes loisirs</a>
                     </ul>
 
-                    <div class="col formation">
-                        <div>
+                    <div class="col">
+                        <div id="formations">
                             <h3>Mes formations</h3>
                             <div id="accordion" role="tablist">
                                 <div class="card">
@@ -376,7 +378,7 @@
                             </div>
                         </div>
 
-                        <div class="mt-5 experiences">
+                        <div id="experiences" class="mt-5 experiences">
                             <h3>Mes expérience</h3>
                             <ul class="timeline">
                                 <li>
@@ -422,10 +424,10 @@
                                     </p>
                                 </li>
                             </ul>
-                            <a class="btn btn-info mt-3" href="#" role="button">Télécharger le CV </a>
+                            <a class="btn btn-info mt-3"  href="Images/index.pdf" download="index.pdf" role="button">Télécharger le CV </a>
                         </div>
 
-                        <div class="loisir mt-5">
+                        <div id="loisirs" class="mt-5">
                             <h3>Mes loisirs</h3>
                             <p class="text-center border shadow p-3 mb-5 bg-white rounded p-3">J'ai un vrai fan de manga et de jeu vidéo, en 2017 j'étais un <b>Gamer pro</b> classer 5éme mondial sur UFC 2. Ma passion pour le dessin, m'a encourangé à devenir un Youtuber et dessinateur à mes temps libres.</p>
 
@@ -481,7 +483,7 @@
             </div>
 
             <div>
-                <h1 class="text-center mt-5">Contactez-moi</h1>
+                <h1 id="contact" class="text-center mt-5">Contactez-moi</h1>
                 <form action="" method="post" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="exampleFormControlInput1">Votre nom</label>
@@ -495,13 +497,20 @@
                         <label for="exampleFormControlTextarea1">Message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
                 </form>
             </div>
+            
     </section>
 
-    <footer class="text-center text-white p-2 bg-dark">
+    <footer class=" d-flex flex-row justify-content-around text-center text-white p-2 bg-dark">
         <p>copyright &copy; Tous droits réversés Seck Mamadou</p>
+          <div id="icons">
+          <a href="https://www.facebook.com/aaron.stone.775823/"><i class="fab fa-facebook-square fa-lg mr-3"></i></a>
+          <a href="https://www.instagram.com/doums_secktwo/"><i class="fab fa-instagram-square fa-lg mr-3"></i></a>
+          <a href="https://github.com/doums85"><i class="fab fa-github-square fa-lg mr-3"></i></a>
+          <a href="https://www.youtube.com/channel/UCYHLEi4wKTmwqpUpoBZyM6g?view_as=subscriber"><i class="fab fa-youtube fa-lg"></i></a>
+       </div>
     </footer>
 
 
