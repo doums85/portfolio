@@ -204,6 +204,12 @@ footer {
         align-items: center;
     }
 }
+@media(max-width: 980px){
+            .nav{
+        display: none;
+                
+    }
+}
 
 @media(max-width: 753px) {
     .wrapper {
@@ -214,6 +220,7 @@ footer {
         width: calc(50% - 20px);
         margin-bottom: 20px;
     }
+
 }
 
 @media(max-width: 505px) {
@@ -224,4 +231,5 @@ footer {
     .wrapper .card {
         width: 100%;
     }
+
 }
