@@ -46,7 +46,7 @@
 .card .circle .box {
     height: 100%;
     width: 100%;
-    background: #fff;
+    background: white;
     border-radius: 50%;
     transform: translate(-50%, -50%) scale(0.8);
     transition: all 0.2s;
@@ -219,8 +219,12 @@ footer {
 }
 @media(max-width: 980px){
             .nav{
-        display: none;
+        display: 
                 
+    }
+    .wrapper .card{
+        min-height: 10vh;
+        min-width: 5vw;
     }
 }
 
@@ -261,8 +265,7 @@ footer {
     .dessins img {
         margin-top: 2rem;
     }
-
-    
+  
 
 }
 
