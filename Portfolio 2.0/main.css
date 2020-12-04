@@ -100,7 +100,16 @@
     font-style: italic;
     font-family: 'Gochi Hand', cursive;
 }
-
+.title{
+    color: #235F8C;
+}
+.display-4{
+    font-size: 3rem;
+}
+.btn{
+    background: #235F8C;
+    border: #235F8C;
+}
 a,.fab {
     transition: .3s;
 }
