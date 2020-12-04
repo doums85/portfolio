@@ -261,9 +261,7 @@ footer {
     .dessins img {
         margin-top: 2rem;
     }
-    .ash{
-        min-width: 58vw
-    }
+
     
 
 }
@@ -276,5 +274,9 @@ footer {
     .wrapper .card {
         width: 100%;
     }
+      .ash{
+        min-width: 58vw;
+    }
+    
 
 }
