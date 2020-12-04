@@ -85,6 +85,10 @@
     font-weight: 600;
 }
 
+  header .mb-5{
+        font-weight: 600;
+    }
+
 .title::before {
     content: '< ';
     font-size: 2rem;
@@ -100,8 +104,17 @@
     font-style: italic;
     font-family: 'Gochi Hand', cursive;
 }
-.title, h4{
+.title{
     color: #235F8C;
+}
+
+h4{
+    color: #235F8C;
+    font-weight: lighter;
+}
+h3{
+    color: #235F8C;
+    font-weight: 300;
 }
 .navbar, .nav,footer {
     background: #00487D;
@@ -220,6 +233,38 @@ footer {
         width: calc(50% - 20px);
         margin-bottom: 20px;
     }
+    .jumbotron{
+        background: url(Images/banniere.svg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .display-1{
+        margin-top: 3rem;
+        font-size: 3.5rem;
+        font-weight: bold;
+    }
+      header .mb-5{
+        font-weight: normal;
+    }
+    .display-4{
+        font-size: 2.5rem;
+        
+    }
+  
+    h1{
+        font-size: 2rem;
+    }
+    .first{
+        margin-bottom: 3rem;
+    }
+    .dessins img {
+        margin-top: 2rem;
+    }
+    .ash{
+        min-width: 58vw
+    }
+    
 
 }
 

@@ -71,7 +71,7 @@
         <div class="jumbotron jumbotron-fluid text-left" style="background-image: url(Images/banniere.svg);">
             <div class="container text-white" style="height: 500px;">
                 <h1 class="display-1">Bonjour !</h1>
-                <p class="lead font-weight-bolder mb-5" style="font-size: 2rem;">Je suis Seck Mamadou</p>
+                <p class="lead  mb-5" style="font-size: 2rem;">Je suis Seck Mamadou</p>
                 <p class="display-4">Developpeur Front-end</p>
                 <p class="lead">
                     <a class="btn btn-primary btn-lg shadow-lg" href="Images/index.pdf" download="cv.pdf" role="button">Télécharger mon CV</a>
@@ -136,7 +136,7 @@
                                 <img class="img-fluid border shadow rounded" src="Images/Fylo%20landing%20page.png" alt="Fylo landing page">
 
                                 <!--modal-->
-                                <button type="button" class="btn btn-primary d-block mx-auto mt-3" data-toggle="modal" data-target="#modal">Voir le projet</button>
+                                <button type="button" class="btn btn-primary d-block mx-auto mt-3 first" data-toggle="modal" data-target="#modal">Voir le projet</button>
                                 <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered" role="document">
                                         <div class="modal-content">
@@ -205,7 +205,7 @@
                         <img class=" img-fluid border shadow rounded" src="Images/Fylo-dark-theme.png" alt="Fylo dark theme">
 
                         <!--modal-->
-                        <button type="button" class="btn btn-primary d-block mx-auto mt-3" data-toggle="modal" data-target="#modal">Voir le projet</button>
+                        <button type="button" class="btn btn-primary d-block mx-auto mt-3 first" data-toggle="modal" data-target="#modal">Voir le projet</button>
                         <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
@@ -273,14 +273,7 @@
                 <h1 class="title">À ma découverte</h1>
                 <p>Bienvenue dans mon monde, dans l'optique de vous mettre de mieux me connaître cette partie résume mes diplômes, mon expérience, parcours et loisirs.</p>
             </div>
-            <div class="row mt-5 ">
-                <ul class="nav text-center pt-4 flex-column w-25 col- sticky-top">
-                    <img src="Images/profil.png" alt="" class="rounded-circle d-block mx-auto mb-3" style="width: 8vw; height: ">
-                    <a class="nav-link active text-white" href="#formations">Mes formations</a>
-                    <a class="nav-link text-white" href="#formation">Mes expériences</a>
-                    <a class="nav-link text-white" href="#loisirs">Mes loisirs</a>
-                </ul>
-
+            <div class=" mt-5 ">
                 <div class="col">
                     <div id="formations">
                         <h3 class="title">Mes formations</h3>
@@ -417,19 +410,21 @@
 
                         <div>
                             <h4 class="mt-5">Ma chaine Youtube</h4>
+                            
                             <a href="https://www.youtube.com/channel/UCYHLEi4wKTmwqpUpoBZyM6g?view_as=subscriber"><img class="w-25 border shadow rounded-circle d-block mx-auto logo-yt" src="Images/Lively(1).png" alt="logo lively amv"></a>
-                            <div class=" row mt-5 d-block mx-auto">
-                                <iframe height="315" class="col-5 mr-3 border shadow-lg" src="https://www.youtube.com/embed/XK1pfWm5Cng" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <div class="row mt-5 d-block text-center">
+                                <iframe height="315" class="col-sm-5 mr-3 border shadow-lg" src="https://www.youtube.com/embed/XK1pfWm5Cng" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-                                <iframe height="315" class="col-5 border shadow-lg" src="https://www.youtube.com/embed/c2vH_-mPL2w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe height="315" class="col-sm-5 border shadow-lg" src="https://www.youtube.com/embed/c2vH_-mPL2w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
                                 <button type="button" class="btn btn-primary shadow-lg  d-block mx-auto mt-3">Visiter la chaine </button>
-                            </div>
+                         
 
                             <div class="mt-5 dessins">
                                 <h4>Mes dessins</h4>
 
                                 <div class="container mt-5">
-                                    <div class="row justify-content-center">
+                                    <div class="row text-center">
                                         <div class="col md-10">
                                             <div class="row mb-5">
                                                 <a href="Images/Ban.jpg" data-toogle="dessin" data-gallery="gallery" class="col-sm-4">
@@ -451,7 +446,7 @@
                                                     <img class=" img-fluid border shadow" src="Images/Zombie.png" alt="zombie" style="height: 38vh;">
                                                 </a>
                                                 <a href="Images/Ash.jpg" data-toogle="dessin" data-gallery="gallery" class="col-sm-4">
-                                                    <img class=" img-fluid border shadow" src="Images/Ash.jpg" alt="Ash" style="height: 38vh; width: 30vw;">
+                                                    <img class=" ash img-fluid border shadow" src="Images/Ash.jpg" alt="Ash" style="height: 38vh; width: 30vw;">
                                                 </a>
 
                                             </div>
@@ -510,6 +505,30 @@
     <!--progress bar -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+    
+    
+    
+    <script>
+        let options = {
+            startAngle: -1.55,
+            size: 150,
+            value: 0.85,
+            fill: {
+                gradient: ['#f5c836', '#f07e16']
+            }
+        }
+        $(".circle .bar").circleProgress(options).on('circle-animation-progress',
+            function(event, progress, stepValue) {
+                $(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%");
+            });
+        $(".js .bar").circleProgress({
+            value: 0.70
+        });
+        $(".react .bar").circleProgress({
+            value: 0.60
+        });
+
+    </script>
   <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -544,27 +563,6 @@
 
     </script>
 
-    <script>
-        let options = {
-            startAngle: -1.55,
-            size: 150,
-            value: 0.85,
-            fill: {
-                gradient: ['#f5c836', '#f07e16']
-            }
-        }
-        $(".circle .bar").circleProgress(options).on('circle-animation-progress',
-            function(event, progress, stepValue) {
-                $(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%");
-            });
-        $(".js .bar").circleProgress({
-            value: 0.70
-        });
-        $(".react .bar").circleProgress({
-            value: 0.60
-        });
-
-    </script>
 
 </body>
 
